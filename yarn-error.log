@@ -1,0 +1,121 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Dimitar.Jilanov\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Dimitar.Jilanov\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\Resources\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Yarn\bin;C:\Program Files\PuTTY\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files (x86)\GnuWin32\bin\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PDFtk Server\bin\;C:\Program Files (x86)\Tesseract-OCR;%NVM_HOME%;%NVM_SYMLINK%;C:\Ruby24-x64\bin;C:\Users\Dimitar.Jilanov\AppData\Local\Microsoft\WindowsApps;C:\Users\Dimitar.Jilanov\AppData\Local\Yarn\bin;C:\Users\Dimitar.Jilanov\AppData\Local\GitHubDesktop\bin;C:\Users\Dimitar.Jilanov\AppData\Local\Programs\Git\cmd
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "organic-stem-skeleton",
+    "private": true,
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "develop": "angel develop",
+      "watch": "angel watch",
+      "build": "angel build",
+      "test:style": "eslint ./"
+    },
+    "author": "",
+    "dependencies": {
+      "angelabilities-package-scripts": "0.1.0",
+      "babel-loader": "^7.1.4",
+      "babel-plugin-transform-react-jsx": "^6.24.1",
+      "babel-preset-es2015": "^6.24.1",
+      "body-parser": "^1.7.0",
+      "bunyan": "~1.0.1",
+      "cookie-parser": "^1.3.2",
+      "ejs": "^2.3.3",
+      "email-templates": "2.0.1",
+      "express": "^4.12.2",
+      "glob-stream": "^5.2.0",
+      "globby": "^5.0.0",
+      "gulp-less": "^3.0.5",
+      "gulp-less-watcher": "^0.5.0",
+      "gulp-watch": "4.3.5",
+      "less-plugin-autoprefix": "^1.5.1",
+      "method-override": "^2.3.1",
+      "mongoose": "4.0.6",
+      "multer": "^0.1.6",
+      "organic": ">=1.0.0",
+      "organic-angel": "^0.3.2",
+      "organic-bunyan-output": "0.0.4",
+      "organic-console": "0.0.2",
+      "organic-dna-loader": "0.0.2",
+      "organic-emailrender": "0.1.1",
+      "organic-emailsender": "0.3.0",
+      "organic-express-mongo-sessions": "0.0.4",
+      "organic-express-response": "0.0.2",
+      "organic-express-routes": "0.0.1",
+      "organic-express-server": "0.0.2",
+      "organic-express-static": "0.0.2",
+      "organic-express-staticpages": "0.0.3",
+      "organic-mongoose": "0.1.0",
+      "organic-nucleus": "^1.0.x",
+      "organic-oval": "^4.2.0",
+      "organic-plasma": "^1.0.x",
+      "organic-plasma-feedback": "0.0.2",
+      "organic-stem-devtools": "^0.2.2",
+      "string-template": "^1.0.0",
+      "webpack": "^1.15.0",
+      "windows-build-tools": "^2.3.0"
+    },
+    "devDependencies": {
+      "angelscripts-help": "0.1.0",
+      "angelscripts-stack-use": "^0.1.4",
+      "bower": "^1.8.4",
+      "bunyan-format": "^0.2.1",
+      "chai": "^4.1.2",
+      "eslint": "^1.10.3",
+      "eslint-config-standard": "^4.4.0",
+      "eslint-plugin-standard": "^1.3.1",
+      "javascript-build-essentials": "^1.0.0",
+      "nodemon": "^1.8.1"
+    },
+    "engines": {
+      "node": "0.10.x | >= 4.2.3"
+    },
+    "stack-upgrades": {
+      "core": "0.1.0",
+      "devtools": "0.2.2",
+      "devtools-client": "0.2.2",
+      "devtools-assets": "0.2.2",
+      "devtools-less": "0.2.2",
+      "devtools-webpack": "0.2.2",
+      "devtools-nodemon": "0.2.2",
+      "mongoose": "0.1.0",
+      "ejs-pages": "0.1.0",
+      "mongo-sessions": "0.1.0",
+      "emails-support": "0.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Found incompatible module
+      at new MessageError (C:\Users\Dimitar.Jilanov\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at Object.checkOne (C:\Users\Dimitar.Jilanov\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:62444:11)
+      at C:\Users\Dimitar.Jilanov\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:22773:75
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Dimitar.Jilanov\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\Dimitar.Jilanov\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (C:\Users\Dimitar.Jilanov\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:23451:28)
+      at C:\Users\Dimitar.Jilanov\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:95:12
+      at C:\Users\Dimitar.Jilanov\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:22777:27

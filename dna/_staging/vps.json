@@ -1,0 +1,6 @@
+{
+  "remote": "@",
+  "local": "dna/_staging/ubuntu-setup.sh",
+  "dest": "/home/root/ubuntu-setup.sh",
+  "shell": "/bin/bash"
+}
