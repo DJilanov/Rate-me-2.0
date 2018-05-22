@@ -55,7 +55,6 @@ npm manifest:
       "organic-dna-loader": "0.0.2",
       "organic-emailrender": "0.1.1",
       "organic-emailsender": "0.3.0",
-      "organic-express-mongo-sessions": "0.0.4",
       "organic-express-response": "0.0.2",
       "organic-express-routes": "0.0.1",
       "organic-express-server": "0.0.2",
